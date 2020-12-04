@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/philosopher-desk/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/philosopher-desk/static/js/main.efb8cc2b.chunk.js",
-    "main.js.map": "/philosopher-desk/static/js/main.efb8cc2b.chunk.js.map",
+    "main.js": "/philosopher-desk/static/js/main.ee5803bb.chunk.js",
+    "main.js.map": "/philosopher-desk/static/js/main.ee5803bb.chunk.js.map",
     "runtime-main.js": "/philosopher-desk/static/js/runtime-main.6a970e46.js",
     "runtime-main.js.map": "/philosopher-desk/static/js/runtime-main.6a970e46.js.map",
     "static/js/2.4a8e4870.chunk.js": "/philosopher-desk/static/js/2.4a8e4870.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6a970e46.js",
     "static/js/2.4a8e4870.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.efb8cc2b.chunk.js"
+    "static/js/main.ee5803bb.chunk.js"
   ]
 }
