@@ -140,7 +140,7 @@ const Chat = () => {
 
   return (
   <Container maxWidth="md">
-    <Typography variant="h6" className={classes.title}>Begining of the chat {id}</Typography>
+    <Typography variant="h6" className={classes.title}>Begining of the chat</Typography>
     <Grid container className={classes.root}>
       {showChat(chat)}
       {loading ? <LinearProgress /> : null}
