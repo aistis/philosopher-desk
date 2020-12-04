@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import db from '../../services/db';
+import presetAnswers from '../../services/answers';
 import Message from "./Message";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Paper, TextField, Button, Typography, LinearProgress } from '@material-ui/core';
@@ -21,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
   formWrapper: {
     padding: 10,
     alignItems: 'center',
-    // height: 120,
     '& .MuiGrid-item:first-of-type': {
       textAlign: 'right',
     }
@@ -59,19 +59,8 @@ const Chat = () => {
   const [error, setError] = useState(ERROR_MESSAGE);
   let history = useHistory();
 
-  const getAnswers=()=>{
-    fetch('mockAnswer.json', {
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-      })
-      .then(function(response){
-        return response.json();
-      })
-      .then(function(data) {
-        setAnswers(data.answers);
-      });
+  const loadAnswers=()=>{
+    setAnswers(presetAnswers);
   }
 
   const loadChat = async () => {
@@ -130,7 +119,7 @@ const Chat = () => {
   }
 
   useEffect(()=>{
-    getAnswers()
+    loadAnswers()
     loadChat()
   },[])
 
