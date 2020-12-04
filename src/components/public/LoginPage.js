@@ -48,7 +48,6 @@ const SignInPage = () => {
     auth.signin(email, password, async () => {
       const user = await db.table('profile').where("id").equalsIgnoreCase(email).toArray()
       const userExists = user.length > 0
-      console.log(user)
       db.profile.put({id: email, name: userExists ? user[0].name : ''})
       .then(() => history.replace(from))
     });

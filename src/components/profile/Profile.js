@@ -49,7 +49,6 @@ const Profile = () => {
 
   const loadProfile = async () => {
     const data = await db.table('profile').where("id").equalsIgnoreCase(auth.user).toArray()
-    console.log(data[0].name)
     setName(data[0].name)
   }
 

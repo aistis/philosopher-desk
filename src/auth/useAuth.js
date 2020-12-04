@@ -6,8 +6,6 @@ const fakeAuth = {
     if(password === 'buba') {
       fakeAuth.isAuthenticated = true;
       setTimeout(cb, 100); // fake async
-    } else {
-      console.log(email, password)
     }
   },
   signout(cb) {
