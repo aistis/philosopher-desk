@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/philosopher-desk/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/philosopher-desk/static/js/main.e588801a.chunk.js",
+    "main.js.map": "/philosopher-desk/static/js/main.e588801a.chunk.js.map",
+    "runtime-main.js": "/philosopher-desk/static/js/runtime-main.6a970e46.js",
+    "runtime-main.js.map": "/philosopher-desk/static/js/runtime-main.6a970e46.js.map",
+    "static/js/2.4a8e4870.chunk.js": "/philosopher-desk/static/js/2.4a8e4870.chunk.js",
+    "static/js/2.4a8e4870.chunk.js.map": "/philosopher-desk/static/js/2.4a8e4870.chunk.js.map",
+    "index.html": "/philosopher-desk/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/philosopher-desk/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.4a8e4870.chunk.js.LICENSE.txt": "/philosopher-desk/static/js/2.4a8e4870.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a970e46.js",
+    "static/js/2.4a8e4870.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.e588801a.chunk.js"
+  ]
+}
