@@ -18,7 +18,7 @@ import AddIcon from '@material-ui/icons/Add';
 const cryptoRandomString = require('crypto-random-string');
 const chat = {
   messages : [
-    {user: 'bot', message: 'Hello My friend. This is a chat application that response to you with the very smart answer. In case you too smart it always has an option to ofer you a Google services. So treat it with patience and enjoy!'}
+    {user: 'bot', message: 'Hello My friend. This is a philosopher desk app that response to you with the very smart answer. In case you`re too smart it always has an option to ofer you a Google services. So treat it with patience and enjoy!'}
   ]
 }
 

@@ -1,6 +1,6 @@
 {
-  "name": "chatapp",
-  "version": "0.1.0",
+  "name": "philosopher-desk",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",

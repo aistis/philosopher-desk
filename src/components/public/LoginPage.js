@@ -68,7 +68,7 @@ const SignInPage = () => {
       <Typography variant='body2' color='textSecondary' align='center'>
         {'Copyright © '}
         <Link color='inherit' href='/'>
-          Chat App
+          Philosopher desk
         </Link>{' '}
         {moment().format('YYYY')}
         {'.'}

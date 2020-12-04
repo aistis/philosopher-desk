@@ -117,7 +117,7 @@ export default function PrimarySearchAppBar() {
       <AppBar position="fixed">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap onClick={() => history.push("/")}>
-            Chat App
+            Philosopher desk
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
