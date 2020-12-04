@@ -68,6 +68,9 @@ const App = () => {
             <PrivateRoute path="/profile">
               <Profile />
             </PrivateRoute>
+            <PrivateRoute path="/philosopher-desk">
+              <LandingPage />
+            </PrivateRoute>
             
             <PrivateRoute path="*">
               <NoMatch />
